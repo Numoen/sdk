@@ -4,7 +4,7 @@
   "version": "1.0.0",
   "private": true,
   "description": "An SDK for building web apps on top of Numo markets",
-  "packageManager": "bun@1.x",
+  "packageManager": "bun@1.0.29",
   "scripts": {
     "build": "bun run --cwd packages/numo-ts build && bun run build --exclude numo-ts",
     "lint": "bun run lint --parallel",
