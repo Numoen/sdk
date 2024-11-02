@@ -3,18 +3,15 @@ import { foundry } from "@wagmi/cli/plugins";
 
 export default defineConfig([
   {
-    out: "packages/panoptic-sdk/src/generated.ts",
+    out: "packages/numo-ts/src/generated.ts",
     contracts: [],
     plugins: [
       foundry({
-        project: "lib/panoptic-v1-core/",
+        project: "lib/numo/",
         include: [
-          "PanopticFactory.sol/**",
-          "PanopticPool.sol/**",
-          "SemiFungiblePositionManager.sol/**",
-          "CollateralTracker.sol/**",
+          "Factory.sol/**",
+          "Market.sol/**",
           "MockERC20.sol/**",
-          "PanopticHelper.sol/**",
         ],
       }),
     ],
