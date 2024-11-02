@@ -1,6 +1,6 @@
 # Numo.ts
 
-Numo.ts is a TypeScript library for interacting with the Numo marketplace for efficiently buying and selling [European-style](https://en.wikipedia.org/wiki/European_option) call options.
+Numo.ts is a TypeScript library for interacting with the Numo marketplace for efficiently buying and selling [european-style](https://en.wikipedia.org/wiki/European_option) call options on the EVM.
 
 ## Installation
 
