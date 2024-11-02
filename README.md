@@ -1,6 +1,8 @@
 # Numo.ts
 
-Numo.ts is a TypeScript library for interacting with the Numo marketplace for efficiently buying and selling [european-style](https://en.wikipedia.org/wiki/European_option) call options on the EVM.
+Numo.ts is a TypeScript sdk for building web apps on Numo markets. Allowing you to efficiently buy or sell [european-style](https://en.wikipedia.org/wiki/European_option) call options on any `ERC-20` token.
+
+It uses `reverse-mirage` to generate the TypeScript bindings from the Numo smart contracts.
 
 ## Installation
 
@@ -10,7 +12,7 @@ npm install --save @numotrade/numo-ts
 
 ## Getting Started
 
-Instantiate your of Numo using your etheres provider:
+Instantiate your of Numo using your ethers provider:
 
 ### Examples
 
