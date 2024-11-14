@@ -1,13 +1,15 @@
-# Numo.ts
+# Numo.js
 
-Numo.ts is a TypeScript sdk for building web apps on Numo markets. Allowing you to efficiently buy or sell [european-style](https://en.wikipedia.org/wiki/European_option) call options on any `ERC-20` token.
+A TypeScript library that makes interfacing with Numo easier. It includes various helper methods and constants for swapping between FX pairs and locking in an exchange rate among others. 
+
+## Synopsis
 
 It uses `reverse-mirage` to generate the TypeScript bindings from the Numo smart contracts.
 
 ## Installation
 
 ```bash
-npm install --save @numotrade/numo-ts
+npm install --save @numotrade/numo-js
 ```
 
 ## Getting Started
@@ -27,7 +29,7 @@ const provider = new ethers.JsonRpcProvider(process.env.RPC_URL);
 const numo = new Numo(provider);
 ```
 
-#### Exercising a ERC-20 call option
+#### Provide liquidity to FX pair
 
 
 
